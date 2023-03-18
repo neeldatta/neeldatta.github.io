@@ -1,0 +1,128 @@
+/* Header and nav list */
+header {
+    margin-top: 20px;
+    background-color: black;
+    height: 80px;
+    color: #FFFFFF;
+    opacity: 85%;
+    font-family: Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    float: center;
+    margin-left: 120px;
+}
+
+nav {
+    display: inline-block;
+}
+nav li {
+    display: inline-block;
+    margin-left: 100px;
+    line-height: 80px;
+}
+
+nav a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+nav a:visited {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+#home {
+    font-size: 40px;
+}
+
+
+/* Body */
+body {
+    color: #484848;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.child {
+    display: inline-block;
+    width: 33%;
+}
+
+.parent {
+    width: 100%
+}
+
+#contact {
+    width: 275px;
+    height: 560px;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #dacb44;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    color:#1e1e1e;
+    border-radius: 185px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 50px;
+    float: left;
+}
+
+h1 {
+    margin-left: 55px;
+    font-family: Kaushan Script;
+    font-size: 32px;
+}
+
+/* Logo */
+#logo {
+    margin-right: 100px;
+    margin-bottom: 400px;
+    float: center;
+    height: 280px;
+}
+
+/* Photo of Durant location. Shaped like contact box. */
+#building {
+    width: 275px;
+    height: 560px;
+    background-color: #dacb44;
+    border-color: #FFFFFF;
+    border-width: 3px;
+    color:#1e1e1e;
+    border-radius: 185px;
+    padding-right: 50px;
+    float: left;
+    margin-right: 0px;
+}
+
+#building img{
+    margin-left: 30px;
+    margin-bottom: 50px;
+    width: 240px;
+    height: 450px;
+    border-radius: 100px;
+}
+
+section {
+    padding: 25px;
+    border: 1px solid #cccccc;  
+    margin-bottom: 28px;
+}
+
+section img {
+    width: 400px;
+}
