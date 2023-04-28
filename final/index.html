@@ -1,32 +1,81 @@
-<!DOCTYPE html>
 <html>
 
   <head>
-    <title>UnknownSFC</title>
+    <title>¿UNKNOWN? Turf Dancing</title>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="icon" href="assets/css/img/fav.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/script.js"></script>
   </head>
 
   <body>
-    <nav>
+
+    <header>
+      <nav>
         <ul>
-            <li><a href="shop.html" id="shop">SHOP</a></li>
-            <li><a href="media.html" id="media">MEDIA</a></li>
-            <li><a href="team.html" id="menu">THE TEAM</a></li>
-            <li><a href="about.html" id="about">ABOUT US</a></li>
+            <li><a href="#home">
+                <img src="assets/css/img/graflogowhite.PNG" alt="" id="logoimg"/>
+            </a></li>
+            <!-- <li class="active"><a href="#media" id="navmedia">MEDIA</a></li> -->
+            <li class="active"><a href="#team" id="theteam">THE TEAM</a></li>
+            <li class="active"><a href="#about" id="navabout">ABOUT US</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
 
-    <video autoplay muted loop id="homevid"> <source src="assets/css/img/home.mp4" type="video/mp4"> </video>
+    <section class = "view" id="home">
+      <video autoplay muted loop id="homevid"> <source src="assets/css/img/home.mp4" type="video/mp4"> </video>
+      <div id ="homelogo">
+        <h1><span>&#191;</span>UNKNOWN?</h1>
+        <!-- <a href="https://www.youtube.com/watch?v=Cg3Lbzm4prE&ab_channel=unkn0wnfamm" target="_blank"></a> -->
+        <p>San Francisco since 2008.</p>
+      </div>
+      
+    </section>
 
-    <div class="content">
-        <h1>Welcome to My Video Background Website</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+    <section class="view" id = "about">
+      <div class="row">
+        <div class="column" id="col1">
+          <img src = "assets/css/img/mainlogo.png" alt="" id="mainlogo"/>
+        </div>
+        <div class="column" id="col2">
+          <img src="assets/css/img/dopey.PNG" alt="" id="dopey"/>
+        </div>
+      </div>
+      <div class="caption">
+        <p>Unknown SFC originally started in early 2008 as the dance team <span class="green">"Giggology."</span>
+          A pillar in the San Francisco street dancing community, Unknown now stands as the last remaining <span class="green">TURF 
+          dancing team</span> representing San Francisco. Their accomplishments include dancing for artists such as <span class="green">Kendrick Lamar,
+          YG, HER,</span> and <span class="green">DJ Carnage.</span> The team has since expanded to <span class="green">20+ members,</span> moving beyond dancing into DJing, music production, 
+          videography, and fashion design.</p>
+      </div>
+    </section>
 
+
+
+    <section class="view" id="team">
+      
+      <h1>MEET SOME OF OUR MEMBERS:</h1>
+      <div class="container">
+        <div class="grid">
+          <div class="item">
+            <img src="assets/css/headshots/cito.JPG" alt="">
+            <p><a href="https://www.instagram.com/intricacito/" target="_blank">Intricate  </a></p>
+          </div>
+          <div class="item">
+            <img src="assets/css/headshots/Neel.JPG" alt="">
+            <p><a href="https://www.instagram.com/neeldatta/" target="_blank">Neel Datta  </a></p>
+          </div>
+          <div class="item">
+            <img src="assets/css/headshots/dope.jpg" alt="">
+            <p><a href="https://www.instagram.com/_dopeyfresh_/" target="_blank">Dopey Fresh  </a></p>
+          </div>
+        </div>
+      </div>
+      <p><span class="orange">Click</span> to view their personal page.</p>
+
+
+    </section>
+    
   </body>
 
 </html>
-
-
