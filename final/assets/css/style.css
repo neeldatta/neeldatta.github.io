@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    /*linear-gradient(180deg, #A984BD 0%, #8E5A76 100%); */
 }
 
 nav {
@@ -48,9 +47,8 @@ nav li a:hover {
     color: #9cea37;
 }
 
-.view {
-    background: 
-    linear-gradient(180deg,#8E5A76 0%, #030203 100%);
+#about{
+    background: linear-gradient(180deg,#8E5A76 0%, #030203 100%);
 	width: 100%;
 	height: 100%;
 	background-color: black;
